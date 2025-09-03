@@ -21,10 +21,12 @@ color: var(--secondary-color);
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  align-items: center;
+  justify-content: center;
   min-width: 320px;
   min-height: 100vh;
   background-color: var(--background-color);
+  font-family: 'Source Code Pro', monospace;
 }
 
 h3 {
@@ -34,6 +36,10 @@ h3 {
 }
 
 #app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
